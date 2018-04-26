@@ -138,7 +138,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 }
 .navbar-default .navbar-nav > li > a {
     font-weight: 500;
-    
+    letter-spacing: 1px;
 }
 .navbar-nav > li > a {
     margin: 0;
@@ -174,9 +174,9 @@ nav.navbar.navbar-default {
     padding: 0;
     font-size: 31px;
     text-transform: uppercase;
-    
+    letter-spacing: 5px;
     line-height: 25px;
-    margin-top: 8px;
+    position: relative;
     font-weight: bold;
 }
 .navbar-brand span {
@@ -295,80 +295,47 @@ li.menu__item:nth-child(6) {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
-/*-- //nav-effect --*/
-/*-- //header --*/
-/*-- banner-text --*/ 
-.header-w3layouts{
-    position: absolute;
-    top: 0;
-    z-index: 99;
-    text-align: center;
-    left: 0;
-    width: 100%;
+
+/*-- //banner-text --*/
+/*-- banner-top --*/
+.w3layouts-banner-top{
+    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;
 }
-.agileits-banner-info h4 {
-    font-size: 4em;
-    color: #ffce14;
-    letter-spacing: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+.w3layouts-banner-top1{
+	background: url(../images/2.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;
 }
-.agileits-banner-info h3 {
-    color: #fff;
-    font-size: 1.5em;
-    margin: 10px 0 0;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    font-weight: 700;
+.w3layouts-banner-top2{
+	background: url(../images/3.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;	
 }
-.agileits-banner-info h3 span {
-    background: rgba(0, 0, 0, 0.68);
-    padding: 0 36px;
+.w3layouts-banner-top,.w3layouts-banner-top1,.w3layouts-banner-top2{
+	min-height:700px;
 }
-.agileits-banner-info {
-    text-align: center;
-    padding: 7em 2em;
-    margin-top: 8em;
-}
-.agileits-banner-info p {
-    color: #ffce14;
-    font-size: 1em;
-    line-height: 1.8em;
-    letter-spacing: 11px;
-    margin: 1em auto;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-.agileits_w3layouts_more{
-	position:relative;
-}
-.agileits_w3layouts_more a {
-    font-size: 13px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 8px 25px;
+.w3ls-banner {
     position: relative;
-    display: inline-block;
-    background: #0f2453;
-	    margin-top: 3em;
-    z-index: 9999;
-    border: 2px solid #fff;
-}
-.agileits_w3layouts_more a:focus{
-	outline:none;
-}
-.agileits_w3layouts_more a:hover{
-	color:#000;
-	border: 2px solid #fff;
-	background: #ffce14;
 }
 
 .copy {
     text-align: center;
     background: #0f2453;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .copy p {
     color: #fff;
@@ -418,7 +385,7 @@ li.menu__item:nth-child(6) {
                                     <li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
                                     <li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
                                     <li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
-                                    <li class="menu__item"><a href="#contact" class="menu__link scroll">Admin</a></li>
+                                    
                                 </ul>
                             </nav>
                         </div>
