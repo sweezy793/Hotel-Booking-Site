@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<title>Login</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resort Inn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+        
+        <link href="/css/font-awesome.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="/css/chocolat.css" type="text/css" media="screen">
+        <link href="/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" property="" />
+        <link rel="stylesheet" href="/css/jquery-ui.css" />
+        
+        <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
+        <!--fonts-->
+        <link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Federo" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+       
+<style type="text/css">
+	body{
+		color: #fff;
+		background-image: url('images/10.jpg');
+		font-family: 'Roboto', sans-serif;
+	}
+    .form-control{
+		height: 40px;
+		box-shadow: none;
+		color: #969fa4;
+	}
+	.form-control:focus{
+		border-color: #5cb85c;
+	}
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+	.signup-form{
+		width: 400px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.signup-form h2{
+		color: #636363;
+        margin: 0 0 15px;
+		position: relative;
+		text-align: center;
+    }
+	.signup-form h2:before, .signup-form h2:after{
+		content: "";
+		height: 2px;
+		width: 30%;
+		background: #d4d4d4;
+		position: absolute;
+		top: 50%;
+		z-index: 2;
+	}	
+	.signup-form h2:before{
+		left: 0;
+	}
+	.signup-form h2:after{
+		right: 0;
+	}
+    .signup-form .hint-text{
+		color: #999;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+    .signup-form form{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #f2f3f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+	.signup-form .form-group{
+		margin-bottom: 20px;
+	}
+	.signup-form input[type="checkbox"]{
+		margin-top: 3px;
+	}
+	.signup-form .btn{        
+        font-size: 16px;
+        font-weight: bold;		
+		min-width: 140px;
+        outline: none !important;
+    }
+	.signup-form .row div:first-child{
+		padding-right: 10px;
+	}
+	.signup-form .row div:last-child{
+		padding-left: 10px;
+	}    	
+    .signup-form a{
+		color: #fff;
+		text-decoration: underline;
+	}
+    .signup-form a:hover{
+		text-decoration: none;
+	}
+	.signup-form form a{
+		color: #5cb85c;
+		text-decoration: none;
+	}	
+	.signup-form form a:hover{
+		text-decoration: underline;
+    }  
+    .social-bnr-agileits{
+	float:left;
+	margin-left:1em;
+}
+
+/*-- nav --*/
+.w3_navigation {
+    background: #0f2453 ;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-right {
+    margin-right: 0;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color:#fff;
+    background:none;
+}
+.navbar-default .navbar-nav > li > a {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.navbar-nav > li > a {
+    margin: 0;
+    padding:0 1.5em;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#ffce14;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+	outline:none;
+}
+nav.navbar.navbar-default {
+    background: none;
+    padding: .9em 0 .4em 0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color:#fff;
+    background: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav  > .active.open > a:focus {
+	background: #0a9dbd;
+	color: #fff;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+.navbar-brand {
+    padding: 0;
+    font-size: 31px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 25px;
+    position: relative;
+    font-weight: bold;
+}
+.navbar-brand span {
+       color: #ffce14;
+}
+p.logo_w3l_agile_caption {
+    text-transform: uppercase;
+    letter-spacing: 5.7px;
+    font-size: 11px;
+    color: #c79f07;
+    text-shadow: 0px 1px 3px #454a47;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.agile_short_dropdown {
+    border-radius: 0;
+    background: #ffffff;
+    text-align: center;
+	padding:0;
+	border: none;
+}
+.agile_short_dropdown li a{
+	text-transform:uppercase;
+	color:#212121;
+	font-size:13px;
+	font-weight:600;
+	padding: .8em 0;
+}
+.agile_short_dropdown > li > a:hover{
+    color: #fff;
+    text-decoration: none;
+   background-color: #ffce14;
+}
+/*-- nav-effect --*/
+.menu__list {
+    position: relative;
+    margin: 0.69em 0 0;
+}
+
+.menu__item {
+	display: block;
+	margin: 1em 0;
+}
+
+.menu__link {
+	font-size: .9em;
+	font-weight: bold;
+	display: block;
+	padding: 1em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* Iris */
+.menu--iris .menu__item {
+	margin:0 0.3em;
+}
+li.menu__item:nth-child(6) {
+    margin-right: 0;
+}
+.menu--iris .menu__link {
+	position: relative;
+	text-align: center;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+	text-shadow: 0px 1px 3px #033815;
+}
+
+.menu--iris .menu__link:hover,
+.menu--iris .menu__link:focus {
+	color: #929292;
+}
+
+.menu--iris .menu__item--current .menu__link,.menu__link:hover {
+	color:#ffce14;
+}
+
+.menu--iris .menu__link::before,
+.menu--iris .menu__link::after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	opacity: 0;
+	border: 2px solid #ffce14;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+	transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+}
+
+.menu--iris .menu__link::before {
+	top: 0;
+	left: 0;
+	border-width: 2px 0 0 2px;
+	-webkit-transform: translate3d(10px, 10px, 0);
+	transform: translate3d(10px, 10px, 0);
+}
+
+.menu--iris .menu__link::after {
+	right: 0;
+	bottom: 0;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: translate3d(-10px, -10px, 0);
+	transform: translate3d(-10px, -10px, 0);
+}
+
+.menu--iris .menu__item--current .menu__link::before,
+.menu--iris .menu__item--current .menu__link::after,.menu__link:hover::before,.menu__link:hover::after {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+/*-- //nav-effect --*/
+/*-- //header --*/
+/*-- banner-text --*/ 
+.header-w3layouts{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+.agileits-banner-info h4 {
+    font-size: 4em;
+    color: #ffce14;
+    letter-spacing: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.agileits-banner-info h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.agileits-banner-info h3 span {
+    background: rgba(0, 0, 0, 0.68);
+    padding: 0 36px;
+}
+.agileits-banner-info {
+    text-align: center;
+    padding: 7em 2em;
+    margin-top: 8em;
+}
+.agileits-banner-info p {
+    color: #ffce14;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 11px;
+    margin: 1em auto;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.agileits_w3layouts_more{
+	position:relative;
+}
+.agileits_w3layouts_more a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 25px;
+    position: relative;
+    display: inline-block;
+    background: #0f2453;
+	    margin-top: 3em;
+    z-index: 9999;
+    border: 2px solid #fff;
+}
+.agileits_w3layouts_more a:focus{
+	outline:none;
+}
+.agileits_w3layouts_more a:hover{
+	color:#000;
+	border: 2px solid #fff;
+	background: #ffce14;
+}
+/*-- //banner-text --*/
+/*-- //banner-text --*/
+/*-- banner-top --*/
+.w3layouts-banner-top{
+    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;
+}
+.w3layouts-banner-top1{
+	background: url(../images/2.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;
+}
+.w3layouts-banner-top2{
+	background: url(../images/3.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+	-webkit-background-size: cover;	
+	-moz-background-size: cover;
+	-o-background-size: cover;		
+	-moz-background-size: cover;	
+}
+.w3layouts-banner-top,.w3layouts-banner-top1,.w3layouts-banner-top2{
+	min-height:700px;
+}
+.w3ls-banner {
+    position: relative;
+}
+
+.copy {
+    text-align: center;
+    background: #0f2453;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.copy p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 1em;
+}
+.copy p a {
+    color: #ffce14;
+    text-decoration: none;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.copy p a:hover{
+	color:#fff;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+</style>
+</head>
+<body>
+        <div class="w3_navigation">
+                <div class="container">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header navbar-left">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <h1><a class="navbar-brand" href="index.html">Let's <span>Book</span> It</a></h1>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                            <nav class="menu menu--iris">
+                                <ul class="nav navbar-nav menu__list">
+                                    <li class="menu__item menu__item--current"><a href="/" class="menu__link">Home</a></li>
+                                    <li class="menu__item"><a href="#" class="menu__link scroll">Login</a></li>
+                                    <li class="menu__item"><a href="/register" class="menu__link scroll">Sign Up</a></li>
+                                    <li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
+                                    <li class="menu__item"><a href="#gallery" class="menu__link scroll">Gallery</a></li>
+                                    <li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                    </nav>
+        
+                </div>
+            </div>
+<div class="signup-form">
+    <form action="/login" method="post">
+		<h2>Login</h2>
+		<p class="hint-text">Already have an account ? Sign In.</p>
+        
+        <div class="form-group">
+        	<input type="email" class="form-control" name="username" placeholder="username" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+		      
+        
+		<div class="form-group">
+            <button type="submit" class="btn btn-success btn-lg btn-block">Log In</button>
+        </div>
+    </form>
+	
+</div>
+<div class="copy">
+        <p>© 2018 Let's Book It . All Rights Reserved | Design by Sarthak, Subham, Richa, Abinash, Satyam, Narayan, Shelly</p>
+    </div>
+    
+
+
+</body>
+</html>                            

@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  h1
+  {
+    text-align: center;
+    color: #ffd88e;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+  h2
+  {
+    color: rgb(70,90,150);
+    text-transform: uppercase;
+  }
+  #main
+  {
+    background-color: white;
+    padding: 0em 1em 1em;
+    padding-top: 10px;
+  }
+  img
+  {
+    width: 100%;
+    margin-top:10px;
+    
+  }
+  #footer
+  {
+    text-align: center;
+    color: white;
+    font-size: 0.85em;
+  }
+  
+  a:link,a:visited
+  {
+    display: block;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+  }
+  a:hover,a:active
+  {
+    color: #94D1C7;
+  }
+  .dropbtn 
+  {
+      background-color: #94D1C7;
+      color: Black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+  }
+  
+  .dropdown 
+  {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content 
+  {
+      display: none;
+      position: absolute;
+      background-color: #94D1C7;
+      min-width: 160px;
+  }
+  
+  .dropdown-content a 
+  {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .dropdown-content a:hover 
+  {
+    background-color: #94D1C7;
+  }
+  
+  .dropdown:hover .dropdown-content 
+  {
+      display: block;
+  }
+  
+  
